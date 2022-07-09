@@ -53,6 +53,14 @@
             padding: 10px;
             border-radius: 5px;
             text-decoration: none;
+
+            &:hover {
+                transition: all 0.2s ease-in-out;
+                font-size: 110%;
+                color: white;
+                background-color: blue;
+                border: 2px solid white;
+            }
         }
 
         &--icon {

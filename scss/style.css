@@ -31,7 +31,11 @@
   justify-content: space-evenly;
 }
 .nav__menu--item {
-  margin: 0px 20px;
+  padding: 10px 20px;
+}
+.nav__menu--item:hover {
+  transition: all 0.2s ease-in-out;
+  border: 1px solid white;
 }
 .nav__menu--link {
   text-decoration: none;
@@ -377,6 +381,13 @@
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
+}
+.contact__boxes--item:hover {
+  transition: all 0.2s ease-in-out;
+  font-size: 110%;
+  color: white;
+  background-color: blue;
+  border: 2px solid white;
 }
 .contact__boxes--icon {
   margin-right: 10px;
