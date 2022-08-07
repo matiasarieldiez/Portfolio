@@ -35,7 +35,7 @@
 }
 .nav__menu--item:hover {
   transition: all 0.2s ease-in-out;
-  border: 1px solid white;
+  outline: 1px solid white;
 }
 .nav__menu--link {
   text-decoration: none;
@@ -255,6 +255,8 @@
 }
 .projects__cards--card img {
   margin-bottom: 20px;
+  height: 250px;
+  width: 250px;
 }
 .projects__cards--card p {
   margin-bottom: 20px;
@@ -387,7 +389,7 @@
   font-size: 110%;
   color: white;
   background-color: blue;
-  border: 2px solid white;
+  outline: 2px solid white;
 }
 .contact__boxes--icon {
   margin-right: 10px;
@@ -400,4 +402,9 @@
   scroll-behavior: smooth;
   line-height: 1.2;
   font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
